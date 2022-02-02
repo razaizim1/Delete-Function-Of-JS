@@ -25,5 +25,9 @@ addBtn.addEventListener("click", function (event) {
         newRow.appendChild(newAmount);
 
         studentList.appendChild(newRow);
+
+        studentName.value = "";
+        courseName.value = "";
+        courseAmount.value = "";
     }
 })
